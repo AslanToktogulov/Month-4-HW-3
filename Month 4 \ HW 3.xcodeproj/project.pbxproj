@@ -13,6 +13,9 @@
 		62D753AF2BC9668900C499FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D753AD2BC9668900C499FD /* Main.storyboard */; };
 		62D753B12BC9668A00C499FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D753B02BC9668A00C499FD /* Assets.xcassets */; };
 		62D753B42BC9668A00C499FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D753B22BC9668A00C499FD /* LaunchScreen.storyboard */; };
+		62D753BD2BC966D800C499FD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D753BC2BC966D800C499FD /* SecondViewController.swift */; };
+		62D753C32BC9681A00C499FD /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D753C22BC9681A00C499FD /* Contacts.swift */; };
+		62D753C52BC9684200C499FD /* MakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D753C42BC9684200C499FD /* MakerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		62D753B02BC9668A00C499FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62D753B32BC9668A00C499FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62D753B52BC9668A00C499FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D753BC2BC966D800C499FD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		62D753C22BC9681A00C499FD /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		62D753C42BC9684200C499FD /* MakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		62D753A62BC9668900C499FD /* Month 4 \ HW 3 */ = {
 			isa = PBXGroup;
 			children = (
-				62D753A72BC9668900C499FD /* AppDelegate.swift */,
-				62D753A92BC9668900C499FD /* SceneDelegate.swift */,
-				62D753AB2BC9668900C499FD /* ViewController.swift */,
+				62D753BE2BC9676200C499FD /* Delegates */,
 				62D753AD2BC9668900C499FD /* Main.storyboard */,
 				62D753B02BC9668A00C499FD /* Assets.xcassets */,
 				62D753B22BC9668A00C499FD /* LaunchScreen.storyboard */,
 				62D753B52BC9668A00C499FD /* Info.plist */,
 			);
 			path = "Month 4 \\ HW 3";
+			sourceTree = "<group>";
+		};
+		62D753BB2BC966B800C499FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				62D753AB2BC9668900C499FD /* ViewController.swift */,
+				62D753BC2BC966D800C499FD /* SecondViewController.swift */,
+				62D753C02BC967F600C499FD /* helper */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		62D753BE2BC9676200C499FD /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				62D753A92BC9668900C499FD /* SceneDelegate.swift */,
+				62D753A72BC9668900C499FD /* AppDelegate.swift */,
+				62D753BB2BC966B800C499FD /* Controllers */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		62D753C02BC967F600C499FD /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				62D753C22BC9681A00C499FD /* Contacts.swift */,
+				62D753C42BC9684200C499FD /* MakerView.swift */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D753BD2BC966D800C499FD /* SecondViewController.swift in Sources */,
+				62D753C52BC9684200C499FD /* MakerView.swift in Sources */,
 				62D753AC2BC9668900C499FD /* ViewController.swift in Sources */,
 				62D753A82BC9668900C499FD /* AppDelegate.swift in Sources */,
 				62D753AA2BC9668900C499FD /* SceneDelegate.swift in Sources */,
+				62D753C32BC9681A00C499FD /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
